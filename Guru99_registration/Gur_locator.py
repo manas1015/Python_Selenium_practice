@@ -1,0 +1,25 @@
+DriverPATH = r'F:\Py browser engine\chromedriver_win32\chromedriver.exe'
+AppURL = "http://demo.guru99.com/insurance/v1/register.php"
+title="//select[@id='user_title']"
+F_name="//input[@id='user_firstname']"
+S_name="//input[@id='user_surname']"
+Phone="//input[@id='user_phone']"
+DOB_yr="//select[@id='user_dateofbirth_1i'] "
+DOB_Mnth="//select[@id='user_dateofbirth_2i'] "
+DOB_dy="//select[@id='user_dateofbirth_3i'] "
+
+Full="//input[@id='licencetype_t']"
+Provisional="//input[@id='licencetype_f']"
+Licence_period="user_licenceperiod"
+occupation="user_occupation_id"
+ad_street="user_address_attributes_street"
+ad_city="user_address_attributes_city"
+ad_country="user_address_attributes_county"
+ad_post="user_address_attributes_postcode"
+Email="user_user_detail_attributes_email"
+
+pwd="user_user_detail_attributes_password"
+cnf_pwd="user_user_detail_attributes_password_confirmation"
+submit="//input[@type='submit' and @class='btn btn-default']"
+
+# reset="//input[@id='resetform']"

@@ -1,0 +1,6 @@
+xpath_python='(//a[@href="python-tutorial"])[1]'
+xpath_java='(//a[@href="java-tutorial"])[1]'
+xpath_dbms='(//a[@href="dbms-tutorial"])[1]'
+xpath_latest_updates='//ol[@class="points"]/li/a'
+xpath_popular_tutorial='//fieldset[5]//div[2]//child::a'
+xpath_learn_java='//footer[@class="footer1"]//child::div[1]//child::a[7]'

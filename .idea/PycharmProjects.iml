@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Javatpoint" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Selenium_easy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Automation_Package/google.com" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoSite_Automation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoSite_Automation/artifact" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoSite_Automation/config" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoSite_Automation/Data" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoSite_Automation/DemoSite_Automation" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoSite_Automation/ObjectRepo1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoSite_Automation/DemoSite_Automation/artifact" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoSite_Automation/DemoSite_Automation/config" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoSite_Automation/DemoSite_Automation/Data" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoSite_Automation/DemoSite_Automation/ObjectRepo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DemoSite_Automation/artifact/screenshots" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Guru99_registration" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Guru99_registration/screen_snaps" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Demo_Framework" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Demo_Framework/Demo_Framework" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Demo_Framework/Demo_Framework/Data" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Demo_Framework/Demo_Framework/Functions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Demo_Framework/Demo_Framework/Locator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Demo_Framework/Demo_Framework/Test" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
+</module>

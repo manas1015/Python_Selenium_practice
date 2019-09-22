@@ -1,0 +1,50 @@
+DEBUG:root:debug
+INFO:root:this is info
+WARNING:root:this is warning
+ERROR:root:this is error
+CRITICAL:root:this is critical
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59144/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59144
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59144 "POST /session HTTP/1.1" 200 682
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59144/session/e6cfb4c7968d0d03f4860c7cb184827e/window/maximize {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59144 "POST /session/e6cfb4c7968d0d03f4860c7cb184827e/window/maximize HTTP/1.1" 200 51
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59144/session/e6cfb4c7968d0d03f4860c7cb184827e/timeouts {"implicit": 10000}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59144 "POST /session/e6cfb4c7968d0d03f4860c7cb184827e/timeouts HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59144/session/e6cfb4c7968d0d03f4860c7cb184827e/url {"url": "http://javatpoint.com"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59144 "POST /session/e6cfb4c7968d0d03f4860c7cb184827e/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59144/session/e6cfb4c7968d0d03f4860c7cb184827e/element {"using": "xpath", "value": "//a[text()='Programs']"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59144 "POST /session/e6cfb4c7968d0d03f4860c7cb184827e/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59144/session/e6cfb4c7968d0d03f4860c7cb184827e/element/b9e340b9-8a7c-430f-aec7-19bd51beace2/click {"id": "b9e340b9-8a7c-430f-aec7-19bd51beace2"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59144 "POST /session/e6cfb4c7968d0d03f4860c7cb184827e/element/b9e340b9-8a7c-430f-aec7-19bd51beace2/click HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59144/session/e6cfb4c7968d0d03f4860c7cb184827e/element {"using": "css selector", "value": "[id=\"gsc-i-id1\"]"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59144 "POST /session/e6cfb4c7968d0d03f4860c7cb184827e/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59144/session/e6cfb4c7968d0d03f4860c7cb184827e/element/39e473e3-7c43-4b71-9ccb-23db6f88f4de/value {"text": "python", "value": ["p", "y", "t", "h", "o", "n"], "id": "39e473e3-7c43-4b71-9ccb-23db6f88f4de"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59144 "POST /session/e6cfb4c7968d0d03f4860c7cb184827e/element/39e473e3-7c43-4b71-9ccb-23db6f88f4de/value HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59144/session/e6cfb4c7968d0d03f4860c7cb184827e/element {"using": "xpath", "value": "(//button[contains(@class,'search')])[1]"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59144 "POST /session/e6cfb4c7968d0d03f4860c7cb184827e/element HTTP/1.1" 200 88
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59144/session/e6cfb4c7968d0d03f4860c7cb184827e/element/eea4ed99-7baf-4a4a-a6f5-a4aa58f6465a/click {"id": "eea4ed99-7baf-4a4a-a6f5-a4aa58f6465a"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59144 "POST /session/e6cfb4c7968d0d03f4860c7cb184827e/element/eea4ed99-7baf-4a4a-a6f5-a4aa58f6465a/click HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:DELETE http://127.0.0.1:59144/session/e6cfb4c7968d0d03f4860c7cb184827e {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59144 "DELETE /session/e6cfb4c7968d0d03f4860c7cb184827e HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59370/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:59370
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59370 "POST /session HTTP/1.1" 200 682
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59370/session/8be8828fd2ee06ca1ada3ec811878ef5/window/maximize {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59370 "POST /session/8be8828fd2ee06ca1ada3ec811878ef5/window/maximize HTTP/1.1" 200 51
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59370/session/8be8828fd2ee06ca1ada3ec811878ef5/timeouts {"implicit": 10000}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:59370 "POST /session/8be8828fd2ee06ca1ada3ec811878ef5/timeouts HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:59370/session/8be8828fd2ee06ca1ada3ec811878ef5/url {"url": "http://javatpoint.com"}
